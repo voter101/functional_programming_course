@@ -74,9 +74,9 @@ let rec merge_sort cmp l = match l with
   * val time_test : float * float =
   *   (0.00522600000000750242, 0.00690799999999569536)
   *
-  * merge (<=) (make_test_list 3000000) (make_test_list 3000000);;
+  * merge (>=) (make_test_list 3000000) (make_test_list 3000000);;
   *   Stack overflow during evaluation (looping recursion?).
-  * merge2 (<=) (make_test_list 3000000) (make_test_list 3000000);;
+  * merge2 (>=) (make_test_list 3000000) (make_test_list 3000000);;
   * - : int list = [6000000; 5999999; ...]
 *)
 
